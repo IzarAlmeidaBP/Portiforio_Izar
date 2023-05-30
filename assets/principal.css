@@ -81,35 +81,35 @@ p {
   height: 32px;
 }
 
-/* Media queries */
+
 
 @media (max-width: 768px) {
-  /* Ajuste os estilos para dispositivos com largura máxima de 768px */
+ 
 
   .container {
-    max-width: 90%; /* Reduza a largura máxima do contêiner */
-    height: auto; /* Ajuste a altura automaticamente */
+    max-width: 90%; 
+    height: auto; 
   }
 
   .profile-img {
-    width: 120px; /* Reduza o tamanho da imagem */
-    height: 120px; /* Reduza o tamanho da imagem */
+    width: 120px; 
+    height: 120px; 
   }
 
   h1 {
-    font-size: 28px; /* Reduza o tamanho da fonte */
+    font-size: 28px; 
   }
 
   h2 {
-    font-size: 24px; /* Reduza o tamanho da fonte */
+    font-size: 24px; 
   }
 
   p {
-    font-size: 16px; /* Reduza o tamanho da fonte */
+    font-size: 16px; 
   }
 
   .rounded-image {
-    width: 24px; /* Reduza o tamanho das imagens */
-    height: 24px; /* Reduza o tamanho das imagens */
+    width: 24px;
+    height: 24px; 
   }
 }
