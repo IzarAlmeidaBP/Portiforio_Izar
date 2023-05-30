@@ -1,0 +1,115 @@
+/* Estilos gerais */
+
+body {
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  max-width: 400px;
+  width: 350px;
+  height: 500px;
+  box-sizing: border-box;
+  margin: 40px auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;  
+   cursor: pointer;
+}
+
+.rounded-image {
+  margin: 0 12px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  /* Ajuste os estilos para dispositivos com largura máxima de 768px */
+
+  .container {
+    max-width: 90%; /* Reduza a largura máxima do contêiner */
+    height: auto; /* Ajuste a altura automaticamente */
+  }
+
+  .profile-img {
+    width: 120px; /* Reduza o tamanho da imagem */
+    height: 120px; /* Reduza o tamanho da imagem */
+  }
+
+  h1 {
+    font-size: 28px; /* Reduza o tamanho da fonte */
+  }
+
+  h2 {
+    font-size: 24px; /* Reduza o tamanho da fonte */
+  }
+
+  p {
+    font-size: 16px; /* Reduza o tamanho da fonte */
+  }
+
+  .rounded-image {
+    width: 24px; /* Reduza o tamanho das imagens */
+    height: 24px; /* Reduza o tamanho das imagens */
+  }
+}
